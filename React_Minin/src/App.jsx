@@ -1,7 +1,7 @@
 import Header from "./components/Header"
 import {ways} from './data'
 import WayToTeach from "./components/WayToTeach"
-
+import Button from "./components/Button/Buttom"
 
 function App() {
 
@@ -16,13 +16,12 @@ function App() {
             <WayToTeach {...ways[1]}/>
             <WayToTeach {...ways[2]}/>
             <WayToTeach {...ways[3]}/>
-              {/* <li>
-                <p>
-                  <strong>Формат обучения.</strong> Пока другие предлогают 50 страниц текста и вебинары по 2 часа, мы даем вам тот же объем знаний в одном тщательно подготовленном видео за 15 минут.
-                </p>
-              </li> */}
             </ul>
            </section>
+          <section>
+            <h3>Чем мы отличаемся от других</h3>
+          <Button></Button>
+          </section>
         </main>
       </div>
   )
